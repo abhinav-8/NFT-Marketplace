@@ -1,6 +1,7 @@
 # NFT-Marketplace
 This is a nft-marketplace developed using nextjs , reactjs ,solidity and hardhat.
-![s2](Project_Demo.mp4)
+
+https://user-images.githubusercontent.com/72845356/177473639-b143a828-0086-48f0-8bf5-394b358019b3.mp4
 
 # Features
   <li>Mutliple users can join and chat in a room.</li> 
