@@ -45,7 +45,7 @@ async function uploadFileToIPFS (data) {
         pinata_secret_api_key: process.env.PINATA_SECRET_KEY
       }
     })
-    const url = `https://ipfs.io/ipfs/${responseData.IpfsHash}?filename=${data.originalFilename}`
+    const url = `https://cloudflare-ipfs.com/ipfs/${responseData.IpfsHash}?filename=${data.originalFilename}`
     return url
   } catch (error) {
     console.log(error)
@@ -59,7 +59,7 @@ async function uploadJsonToIPFS (json, fileName) {
         pinata_secret_api_key: process.env.PINATA_SECRET_KEY
       }
     })
-    const url = `https://ipfs.io/ipfs/${responseData.IpfsHash}?filename=${fileName}`
+    const url = `https://cloudflare-ipfs.com/ipfs/${responseData.IpfsHash}?filename=${fileName}`
     return url
   } catch (error) {
     console.log(error.response.data)
